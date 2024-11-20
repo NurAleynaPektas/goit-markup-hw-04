@@ -177,7 +177,7 @@ img {
   background-color: #404bbf;
 }
 
-/* ABOUT BUİSNESS SECOND SECTİON */
+/* MAİN SECOND SECTİON */
 
 .main-second-section {
   padding: 120px 0;
@@ -222,6 +222,17 @@ img {
   color: #434455;
 }
 
+.svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
+
 /*OUR TEAM THİRD SECTİON */
 .main-third-div-container {
   display: block;
@@ -252,6 +263,38 @@ img {
   width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
   list-style-type: none;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.third-section-social-media {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.third-section-sm-li {
+  width: 40px;
+  height: 40px;
+}
+
+.third-section-sm-a {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.third-section-sm-a :hover,
+.third-section-sm-a :focus {
+  background-color: #404bbf;
+}
+
+.third-section-svg {
+  fill: #f4f4fd;
 }
 
 .main-third-section-name-job {
